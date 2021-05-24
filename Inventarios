@@ -1,1 +1,8 @@
 CLEAROUTPUT
+
+NEWCMD getCantidadPedidos pedidos
+	POISSON 1 7 pedidos
+END
+
+getCantidadPedidos pedidos
+PRINT pedidos
